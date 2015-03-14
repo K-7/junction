@@ -54,6 +54,7 @@ CORE_APPS = (
 )
 
 THIRD_PARTY_APPS = (
+    "sendgrid",
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -208,3 +209,4 @@ TWITTER_CONSUMER_KEY = os.environ.get('TWITTER_CONSUMER_KEY', None)
 TWITTER_CONSUMER_SECRET = os.environ.get('TWITTER_CONSUMER_SECRET', None)
 TWITTER_ACCESS_TOKEN_KEY = os.environ.get('TWITTER_ACCESS_TOKEN_KEY', None)
 TWITTER_ACCESS_TOKEN_SECRET = os.environ.get('TWITTER_ACCESS_TOKEN_SECRET', None)
+
